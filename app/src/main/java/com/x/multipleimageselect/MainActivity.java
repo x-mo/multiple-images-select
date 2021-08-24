@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             ClipData clipData = data.getClipData();
 
             if (clipData != null) {
-                //multiple images selecetd
+                //multiple images selected
                 for (int i = 0; i < clipData.getItemCount(); i++) {
                     Uri imageUri = clipData.getItemAt(i).getUri();
                     Log.d("URI", imageUri.toString());
